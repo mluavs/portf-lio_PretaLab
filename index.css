@@ -10,7 +10,7 @@ li {
 }
 
 body{
-    font-family: 'Roboto' sans-serif; 
+    font-family: 'Gill Sans', sans-serif;
     margin: 0;
 }
 .header-menu{
@@ -21,7 +21,7 @@ body{
     padding-bottom: 32px;
     padding-top: 32px;
     height: 60px;
-    background-color: #724796;
+    background-color: #A4BF88;
 
 }
 
@@ -41,6 +41,7 @@ body{
 .lista-menu li>a {
     color: #FFF;
     font-size: 18px;
+    font-weight: 700;
     text-decoration: inherit;
 }
 
@@ -69,7 +70,7 @@ body{
 
 .nome-completo{
     font-size: 36px;
-    color: #ff4dbc;
+    color: #A66388;
     font-weight: 700;
     height: 45px;
 }
@@ -78,6 +79,10 @@ body{
     font-size: 20px;
     line-height: 32px;
     color: #C6B5D5;
+}
+
+.sobre-mim{
+    font-size: 18px;
 }
 
 .article-lista{
@@ -89,7 +94,7 @@ body{
 
 .topico-principal{
     font-size: 36px;
-    color: #ff4dbc;
+    color: #A66B49;
 }
 
 .lista-item{
@@ -130,4 +135,32 @@ body{
     font-size: 18px;
     color: #828282;
     font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 100px;
+    background-color: #A66388;
+}
+
+.estilo-icon{
+    margin-right: 10px;
+    font-size: 32px;
+
+}
+
+.lista-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
