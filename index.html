@@ -2,81 +2,117 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="shortcut icon" href="img/foto-perfil.png">
-    <title>Meu Portfólio</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon-sol-96.png">
+    <title>primeiro portfolio da marina</title>
 </head>
 
 <body>
-    <!--nosso cabeçalho-->
-    <header class="header-menu">
-        <!--onde vão ficar os links de acesso-->
+    <!--cabeçalho-->
+    <header>
+        <div class="logo">
+            <h1>Marina Lua</h1>
+            <h2>nas desaventuras de seu primeiro projeto em HTML5 e CSS3</h2>
+            <h3 class="marca-texto-amarelo">um oferecimento do I Ciclo Formativo em Tecnologia da PretaLab</h3>
+        </div>
         <nav>
-            <!--nossa lista de links-->
-            <ul class="lista-menu">
-                <li>
-                    <a href="#formacao">Formação</a>
+            <ul>
+                <li class="marca-texto-rosa"><a href=#vamo-com-fe>Vamo com fé!</a></li>
+                <li class="marca-texto-rosa"><a href="#oquetoaprendendo">O que tô aprendendo</a></li>
+                <li class="marca-texto-rosa"><a href="#coisaslegaisquegosteideler">Coisas legais que gostei de ler</a>
                 </li>
-                <li>
-                    <a href="#portfolio">Portfólio</a>
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
+                <li class="marca-texto-rosa"><a href="#aquivocemeacha">Aqui você me acha!</a></li>
             </ul>
         </nav>
     </header>
-    <!--tag principal que fala do escopo do site-->
 
+    <!--tag principal que fala do escopo do site-->
     <main>
-        <section class="principal">
-            <!--a seção do meu site-->
-            <article class="subcontainer-principal container">
-                <div>
-                    <img src="foto-perfil.png" alt="marina lua">
+        <article>
+            <section id="vamo-com-fe">
+                <div class="foto-polaroid container-foto">
+                    <img src="foto-polaroid.png" alt="marina em uma foto do tipo polaroid">
                 </div>
-                <div>
-                    <h1 class="nome-completo">Marina Lua Vieira dos Santos</h1>
-                    <h2 class="profissao">A sua futura Desenvolvedora Front-End preferida</h2>
+            </section>
+
+            <section>
+                <div class="container-fe">
+                    <p class="marca-texto-amarelo"><a href="https://www.youtube.com/watch?v=MxPsWzSh6Lg" target="_blank" class="links">vamo com fé, que a fé (cê bem sabe) não costuma faiá</a></p>
                 </div>
-                <br>
-                <div>
-                    <p class="sobre-mim">
-                        Aluna do I Ciclo de Formação em Tecnologia da PretaLab<br>
-                        Aprendendo HTML, CSS, Javascpript, React e Lógica de Programação<br>
+                <div class="container texto-simples article-lista">
+                    <p class="disclaimer" id="oquetoaprendendo">olha esse disclaimer aqui meu povo</p>
+                    <p>
+                        Esse site que cê tá vendo no maravilhoso (nem sempre) mundo da internet é o <strong>primeiro projeto</strong> que eu faço como aluna do I
+                        Ciclo de
+                        Formação em Tecnologia da PretaLab, que é uma iniciativa da OLabi!
+                        Ele foi construído durante as aulas de HTML5 e CSS3 (algumas visitas ao stackflow no meio do
+                        caminho <strong>e, preciso dizer, toda a minha indecisão sobre cores e fontes</strong>).
                     </p>
                 </div>
-            </article>
-        </section>
+            </section>
+        </article>
+
 
         <section>
-            <article id="formacao" class="article-lista container">
+            <article class="article-lista container2">
                 <div>
-                    <h3 class="topico-principal">Formação</h3>
+                    <h3 class="topico-principal">O que tô aprendendo</h3>
                 </div>
                 <div class="lista-item">
                     <ul>
                         <li>
-                            <p class="lista-titulo">Ciclo Formativo PretaLab</p>
-                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">PretaLab/OLABI</a>
-                            <p class="lista-descricao">Descrição do Curso</p>
+                            <p class="lista-titulo marca-texto-amarelo">Ciclo Formativo PretaLab</p><br>
+                            <a href="https://www.pretalab.com/formacao" target="_blank"
+                                class="lista-local">PretaLab/OLABI</a>
+                            <p class="lista-descricao">Aqui o que tá no site: O ciclo formativo em tecnologia da
+                                PretaLab possui uma
+                                metodologia autoral que
+                                engloba o desenvolvimento do conhecimento técnico, autogestão e soft skills das
+                                estudantes. Nosso objetivo é desenvolver a técnica, mas também as habilidades que nem
+                                sempre são ensinadas em cursos tradicionais e que auxiliam na autonomia de aprender
+                                novos conteúdos e também a solucionar problemas inesperados.
+                            </p><br>
+                            <p class="lista-descricao">Aqui o que tá no meu coração: O ciclo formativo foi onde eu
+                                aprendi o que era o github (e subi meu primeiro arquivo txt - muito emocionante, eu sei
+                                haha),também foi <strong> me senti acolhida</strong> depois de muito tempo tentando encontrar
+                                um espaço de estudo que não fosse só mais uma vídeo aula gravada (o que é bom de vez em quando, mas aprendo melhor em
+                                aulas síncronas). Tá, mas as aulas. As aulas! Até agora com Amanda, Giovana e Nath (menção honrosa pra
+                                Vera, que entrega tudo sem prometer)
+                                aprendi demais, mas a verdade é que a PretaLab é mais do que um amontoado muito legal de
+                                aprendizado. A PretaLab é sobre se enxergar,
+                                é sobre ser vista, é sobre não ter medo de perguntar e é sobre coletividade. <strong>O
+                                conhecimento é coletivo!</strong>
+                            </p>
                         </li>
                         <li>
-                            <p class="lista-titulo">Ciclo Formativo PretaLab</p>
-                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">PretaLab/OLABI</a>
-                            <p class="lista-descricao">Descrição do Curso</p>
+                            <p class="lista-titulo marca-texto-amarelo">Ciência Política - Mestrado</p><br>
+                            <p class="lista-descricao">Faço mestrado em Ciência Política na Universidade Federal do Rio
+                                Grande do Sul. Pesquiso de que maneira gênero e feminismos são estudados dentro da disciplina e espero (em breve) ser mestra. Não que isso
+                                seja grande coisa, vai, mas é legal.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="lista-titulo marca-texto-amarelo">Ciências Jurídicas e Sociais - Graduação</p><br>
+                            <p class="lista-descricao" id="coisaslegaisquegosteideler">Ahhh o Direito, curso de muita gente que não sabe o que fazer, ou
+                                que ficou sem saber ao longo dos anos. Já fui advogada e trabalhei pra um projeto MUITO
+                                legal, chamado GRITAM. A GRITAM (Grupo Interdisciplinar de Trabalho e Assessoria para
+                                Mulheres) foi o único lugar em que a advocacia fez sentido pra mim.</p>
                         </li>
                     </ul>
                 </div>
             </article>
         </section>
 
-        <section id="portfolio" class="wrapper-portfolio">
-            <article class="article-lista container">
+        <section class="wrapper-portfolio">
+            <article class="article-lista container3">
                 <div>
-                    <h3 class="topico-principal">Blog</h3>
+                    <h3 class="topico-principal">Coisas legais que gostei de ler (e espero que cê goste também, em algum
+                        momento, sabe, sem pressa)</h3>
                 </div>
                 <div class="lista-item">
                     <ul>
@@ -84,15 +120,22 @@
                             <p class="lista-titulo">Mulheres que fazem história</p>
                             <p class="subtitulo-lista">Revelo</p>
                             <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/"
-                                class="lista-local">Mulheres Desenvolvedoras para você conhecer!</a>
-                            <p class="lista-descricao">Descrição do Artigo</p>
+                                class="lista-local" target="_blank">Mulheres Desenvolvedoras para você conhecer!</a>
+                            <p class="lista-descricao">Esse é um artigo muito (muito) massa pra ler quando você tá
+                                começando algo e quer ter referências que te façam acreditar que dá pra ir mais longe,
+                                ainda que devagar!</p>
                         </li>
                         <li>
-                            <p class="lista-titulo">Mulheres que fazem história</p>
-                            <p class="subtitulo-lista">Revelo</p>
-                            <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/"
-                                class="lista-local">Mulheres Desenvolvedoras para você conhecer!</a>
-                            <p class="lista-descricao">Descrição do Artigo</p>
+                            <p class="lista-titulo">Aqui um dos meus textos preferidos sobre parte da obra de uma das
+                                minhas autoras preferidas</p>
+                            <p class="subtitulo-lista">Revista Piauí</p>
+                            <a href="https://piaui.folha.uol.com.br/materia/a-espera-dos-barbaros/" class="lista-local"
+                                target="_blank">À espera dos bárbaros: o que os personagens masculinos de Elena Ferrante
+                                têm a nos dizer</a>
+                            <p class="lista-descricao">Alejandro Chacoff retoma a narrativa de Ferrante de uma forma
+                                muito bonita. O autor fala sobre esteriótipos masculinos, sobre a capacidade de escrita
+                                de Elena e sobre como o livro entrega bem mais do que os romances ordinariamente
+                                escritos.</p>
                         </li>
                     </ul>
                 </div>
@@ -100,17 +143,18 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <ul id="contato" class="lista-footer">
-                <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:mluasantos@gmail.com" target="_blank" class="links"></a>mluasantos@gmail.com
-                <li><i class="fab fa-linkedin estilo-icon"></i>mluavs</li>
-                <li><i class="fab fa-github-square estilo-icon"></i>mluavs</li>
-            </ul>
-        </div>
-
+    <footer id="aquivocemeacha">
+        <ul>
+            <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:mluasantos@gmail.com" target="_blank"
+                    class="links">mluasantos@gmail.com</a></li>
+            <li><i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/mluavs/" target="_blank"
+                    class="links">mluavs</a></li>
+            <li><i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/mluavs" target="_blank"
+                    class="links">mluavs</a></li>
+            <li><i class="fab fa-pinterest-square estilo-icon"></i><a href="https://br.pinterest.com/mluavs/_saved/"
+                    target="_blank" class="links">mluavs</a></li>
+        </ul>
     </footer>
-
 </body>
 
 </html>
