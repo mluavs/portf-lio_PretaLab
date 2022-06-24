@@ -8,7 +8,7 @@
 
 :root{
     --background-color1: goldenrod;
-    --backgound-color2: rgba(192, 106, 173, 0.842); 
+    --background-color2: rgba(192, 106, 173, 0.842); 
     --background-color3: rgb(218, 32, 7);
 }
 
@@ -26,30 +26,6 @@ header{
     position: -webkit-sticky;
     z-index: 999;
     top: 0;
-    height: 30vh;
-}
-.logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-.logo h1{
-    font-size: 3rem;
-}
-
-.logo h2{
-    font-size: 1,9rem;
-}
-
-.logo h3{
-    font-size: 0,9rem;
-    padding-top: 0,5rem;
 }
 
 nav ul {
@@ -76,14 +52,36 @@ nav a {
 
 /*aqui começa tudo que tá embaixo da nav bar*/
 
-main{
-   
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 98px;
+}
+
+.logo h1{
+    font-size: 4rem;
+}
+
+.logo h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.logo h3{
+    font-size: 0,9rem;
+    text-align: center;
 }
 
 .container-foto{
     display: flex;
     justify-content: center;
-    background-color: var(--background-color3); 
+    background-color: var(--background-color2); 
     margin-right: auto;
     margin-left: auto;
     max-width: 500px;
@@ -91,7 +89,6 @@ main{
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 33vh;
 }
 
 img{
@@ -158,7 +155,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--backgound-color2);
+    background-color: var(--background-color2);
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
@@ -195,8 +192,8 @@ img{
 }
 
 .marca-texto-rosa{
-    box-shadow: 15px 0 0 0 var(--backgound-color2), -5px 0 0 0 var(--backgound-color2) od;
-	background: var(--backgound-color2);
+    box-shadow: 15px 0 0 0 var(--background-color2), -5px 0 0 0 var(--background-color2) od;
+	background: var(--background-color2);
 	display:flex;
     justify-content: center;
     align-items: center;
@@ -267,6 +264,16 @@ img{
     margin-top: 5px;
     line-height: 20px;
     color: black;
+    font-weight: 300;
+}
+
+.lista-descricao-branco{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #ffff;
     font-weight: 300;
 }
 
