@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav li{
-    margin-top: 0,5rem;
+    margin-top: 1rem;
     margin-bottom: 1em;
     margin-right: 1em;
     margin-left: 1em;
@@ -203,6 +203,15 @@ img{
 .marca-texto-vermelho{
     box-shadow: 15px 0 0 0 var(--background-color3), -5px 0 0 0 var(--background-color3) od;
 	background: var(--background-color3);
+	display:flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+}
+
+.marca-texto-branco{
+    box-shadow: 15px 0 0 0 #ffff, -5px 0 0 0 #ffff;
+	background: #ffff;
 	display:flex;
     justify-content: center;
     align-items: center;
