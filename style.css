@@ -285,7 +285,7 @@ img{
 footer{
     display: flex;
     width: 100%;
-    height: 110px;
+    height: 131px;
     justify-content: center;
     background-color: var(--background-color3);
     align-items: center;
@@ -293,7 +293,7 @@ footer{
 
 footer ul{
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 200;
     list-style: none;
 }
