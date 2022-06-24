@@ -7,13 +7,14 @@
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--chamei uma fonte do google-->
     <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon-sol-96.png">
-    <title>primeiro portfolio da marina</title>
+    <!--ícone da barra-->
+    <title>HTML-CSS only | marina lua</title>
 </head>
 
 <body>
-    <!--cabeçalho-->
     <header>
         <div class="logo">
             <h1>Marina Lua</h1>
@@ -31,44 +32,30 @@
         </nav>
     </header>
 
-    <!--tag principal que fala do escopo do site-->
+
     <main>
-        <article>
-            <section id="vamo-com-fe">
-                <div class="foto-polaroid container-foto">
-                    <img src="foto-polaroid.png" alt="marina em uma foto do tipo polaroid">
-                </div>
-            </section>
-
-            <section>
-                <div class="container-fe">
-                    <p class="marca-texto-amarelo"><a href="https://www.youtube.com/watch?v=MxPsWzSh6Lg" target="_blank"
-                            class="links">vamo com fé, que a fé (cê bem sabe) não costuma faiá</a></p>
-                </div>
-                <div class="container texto-simples article-lista">
-                    <p class="disclaimer">Oi!<br>esse<br>é meu disclaimer de milhões</p>
-                    <p>
-                        Esse site que cê tá vendo no maravilhoso (porém nem sempre) mundo da internet é o
-                        <strong>primeiro projeto</strong> que eu faço como aluna do I
-                        Ciclo de Formação em Tecnologia da PretaLab, que é uma iniciativa da OLabi!
-                        Ele foi construído durante as aulas de HTML5 e CSS3 (algumas visitas ao stackflow no meio do
-                        caminho e, preciso dizer, toda a minha indecisão sobre cores e fontes).<br><br>
-                        Outra coisa importante é que essa página ainda não é esteticamente perfeita, nem responsivamente
-                        bonita, mas tamo indo.
-                        Mais uma coisa, <span class="gil-caetano">se você não clicou ali em cima, em "vamo com fé, que a
-                            fé (cê bem sabe) não costuma faiá", volta ali, porque eu coloquei um link pra Gil e Caetano
-                            cantando! e é mó bonito. Confia.</span>
-                    </p>
-                    <span id="oquetoaprendendo"></span>
-                </div>
-            </section>
-        </article>
-
+        <div class="foto-polaroid container-foto" id="vamo-com-fe">
+            <img src="foto-polaroid.png" alt="marina em uma foto do tipo polaroid">
+        </div>
+        <div class="container-fe">
+            <h4 class="marca-texto-amarelo"><a href="https://www.youtube.com/watch?v=MxPsWzSh6Lg" target="_blank"
+                    class="links">vamo com fé, que a fé (cê bem sabe) não costuma faiá</a></h4>
+        </div>
         <section>
-            <article class="article-lista container2">
-                <div>
-                    <h3 class="topico-principal">O que tô aprendendo</h3>
-                </div>
+            <h3 class="container lista-descricao"><span class="gil-caetano">Antes de qualquer coisa:</span><br> Essa página ainda não é esteticamente perfeita, nem responsivamente
+                bonita, e tá tudo bem, até porque cê ta aqui e eu tô aqui e é sobre isso. Quero dizer que esse site que cê tá vendo no maravilhoso (porém nem sempre) mundo da internet é o
+                primeiro projeto que eu faço como aluna do I Ciclo de Formação em Tecnologia da PretaLab, que é uma iniciativa da OLabi!<br><br>A intenção aqui é que ele seja um projeto sempre em construção, pra que eu consiga acompanhar (e documentar) a minha evolução construindo coisas legais na internet. Imagina que daqui há um tempo, esse site vai ser altamente interativo e responsivo em qualquer dispositivo, sabe, com vários easter eggs no meio do caminho.
+                Aliás, tudo aqui é colorido pra que eu consiga ver as marcações de cada seção, mas também porque eu gosto de formas geométricas e porque gosto de combinações de cores questionáveis.<br><br>
+                <span class="gil-caetano">E se você não clicou ali em cima, em "vamo com fé, que a
+                fé (cê bem sabe) não costuma faiá", volta ali, porque eu coloquei um link pra Gil e Caetano
+                cantando! e é mó bonito. Confia.</span>
+            </h3>
+        </section>
+
+            <article class="container2">
+                <section>
+                    <h3 class="topico-titulo">O que tô aprendendo</h3>
+                </section>
                 <div class="lista-item">
                     <ul>
                         <li>
@@ -122,8 +109,8 @@
         <section class="wrapper-portfolio">
             <article class="article-lista container3">
                 <div>
-                    <h3 class="topico-principal">Coisas legais que gostei de ler (e espero que cê goste também, em algum
-                        momento, sabe, sem pressa)</h3>
+                    <h1 class="topico-titulo">Coisas legais que gostei de ler (e espero que cê goste também, em algum
+                        momento, sabe, sem pressa)</h1>
                 </div>
                 <div class="lista-item">
                     <ul>

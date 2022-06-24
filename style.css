@@ -1,7 +1,9 @@
+/* primeiras propriedades: */
 * {
-    margin:0;
-    padding: 0;
+    margin:0; /* define a área de margem nos quatro lados do elemento */
+    padding: 0; 
     outline: 0;
+    box-sizing:border-box;
 }
 
 :root{
@@ -12,7 +14,7 @@
 
 body{
     font-family: 'Barrio', cursive;
-    background-color: var(--background-color1);
+    background-color: #ffff;
 }
 
 /*minha barra de navegação começa aqui*/
@@ -24,6 +26,7 @@ header{
     position: -webkit-sticky;
     z-index: 999;
     top: 0;
+    height: 30vh;
 }
 .logo{
     display: flex;
@@ -80,15 +83,15 @@ main{
 .container-foto{
     display: flex;
     justify-content: center;
-    background-color: var(--background-color1); 
+    background-color: var(--background-color3); 
     margin-right: auto;
     margin-left: auto;
     max-width: 500px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 190px;
-    padding-bottom: 5px;
-    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 33vh;
 }
 
 img{
@@ -118,8 +121,9 @@ img{
 
 .container{
     display: flex;
+    flex-direction: column;
     align-items:center;
-    background-color: goldenrod;
+    background-color: green;
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
@@ -128,7 +132,7 @@ img{
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 
@@ -152,6 +156,7 @@ img{
 
 .container3{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: var(--backgound-color2);
     margin-right: auto;
@@ -210,13 +215,15 @@ img{
 .texto-simples{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    padding-top: 20px;
     text-align: justify;
     padding: 32px;
 }
 
 .disclaimer{
+    display: flex;
+    justify-content: center;
     font-family:"Barrio";
+    
     font-size: 28px;
     font-weight: 900;
     padding-bottom: 10px;
@@ -225,7 +232,7 @@ img{
     text-decoration: underline;   
 }
 
-.topico-principal{
+.topico-titulo{
     font-size: 36px;
     color: black;
     padding: 32px;
