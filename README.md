@@ -7,4 +7,6 @@ A intenção é que ele seja um projeto sempre em construção (ainda vou descob
 
 Cê pode conferir a boniteza dele aqui https://marinalua-pretalab.netlify.app/ 
 
+![](ativos/portfolio_preview.gif)
+
 
